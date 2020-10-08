@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+
+.font-roboto {
+  font-family: "Roboto";
+}
+
+.hero-screenshot {
+  @apply -mb-48;
+  transition: all 0.4s ease-in-out;
+}
+
+@screen md {
+  .hero-screenshot {
+    @apply -mb-96;
+  }
+}
+
+@screen lg {
+  .hero-screenshot {
+    @apply -mb-152;
+  }
+}
+
+.hero-screenshot:hover {
+  @apply -mb-32;
+}
+
+/**
+ * Wave shape style
+ * https://www.shapedivider.app/
+ * */
+
+.custom-shape-divider-bottom-1602011117 {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1602011117 svg {
+  position: relative;
+  display: block;
+  width: calc(128% + 1.3px);
+  height: 80px;
+}
+
+.custom-shape-divider-bottom-1602011117 .shape-fill {
+  fill: #ffffff;
+}
+
+@tailwind utilities;
