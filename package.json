@@ -1,0 +1,19 @@
+{
+  "name": "samplescope-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss src/style.css -o docs/style.css",
+    "build:watch": "postcss src/style.css -o docs/style.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8.1.1",
+    "postcss-cli": "^8.0.0",
+    "tailwindcss": "^1.8.10"
+  }
+}
