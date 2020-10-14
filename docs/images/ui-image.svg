@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="230px" height="96px" viewBox="0 0 230 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-2" transform="translate(-207.000000, -1034.000000)">
+            <g id="Group-6" transform="translate(207.000000, 1034.000000)">
+                <g id="Group-5" transform="translate(46.000000, 29.000000)">
+                    <rect id="Rectangle" fill="#FFD33D" x="0" y="0" width="184" height="56" rx="5"></rect>
+                    <g id="Group" transform="translate(37.000000, 14.000000)">
+                        <text id="Download" font-family="OpenSans-Semibold, Open Sans" font-size="20" font-weight="500" letter-spacing="-1.31578947" fill="#B08800">
+                            <tspan x="41.5717516" y="21">Download</tspan>
+                        </text>
+                        <polyline id="Path" stroke="#B08800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="11 21 17 28 23 21"></polyline>
+                        <line x1="17" y1="14" x2="17" y2="28" id="Path" stroke="#B08800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <path d="M30.7190264,23 C33.4746548,21.089251 34.6562506,17.6376392 33.638775,14.470993 C32.6212994,11.3043468 29.6395538,9.15342801 26.2708172,9.15602636 L24.3247256,9.15602636 C23.0525293,4.26714463 18.8551056,0.657877605 13.7701179,0.08036462 C8.68513014,-0.497148365 3.76548722,2.07667381 1.39945794,6.55235444 C-0.966571334,11.0280351 -0.289071698,16.4788298 3.10306078,20.2586191" id="Path" stroke="#B08800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+                <path d="M70.8554688,58.5 C74.6445312,52.6 76.8674479,45.6 76.8674479,38.075 C76.8674479,17.05 59.6651042,0 38.4463542,0 C17.2023438,0 0,17.05 0,38.075 C0,59.1 17.2023438,76.15 38.4210937,76.15 C46.1255208,76.15 53.2994792,73.9 59.3114583,70.05 L61.0544271,68.85 L88.4872396,96 L97,87.425 L69.5924479,60.275 L70.8554688,58.5 Z M60.0682196,16.7853577 C65.828203,22.4509151 69,29.9883527 69,38 C69,46.0116473 65.828203,53.5490849 60.0682196,59.2146423 C54.3082363,64.8801997 46.6451747,68 38.5,68 C30.3548253,68 22.6917637,64.8801997 16.9317804,59.2146423 C11.171797,53.5490849 8,46.0116473 8,38 C8,29.9883527 11.171797,22.4509151 16.9317804,16.7853577 C22.6917637,11.1198003 30.3548253,8 38.5,8 C46.6451747,8 54.3082363,11.1198003 60.0682196,16.7853577 Z" id="Shape-Copy-4" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

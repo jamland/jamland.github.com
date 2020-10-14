@@ -7,6 +7,7 @@
 
 .hero-screenshot {
   @apply -mb-48;
+  transform: scale(0.97);
   transition: all 0.4s ease-in-out;
 }
 
@@ -24,6 +25,32 @@
 
 .hero-screenshot:hover {
   @apply -mb-32;
+  transform: scale(1);
+}
+
+/**
+ * CUSTOM ELEMENTS
+ */
+
+.hero-lead-text {
+  @apply text-4xl font-bold leading-10 font-roboto opacity-75;
+}
+
+@screen md {
+  .hero-lead-text {
+    @apply text-6xl;
+    line-height: 3.5rem;
+  }
+}
+
+.download-button-text {
+  @apply text-xl leading-6 mr-2;
+}
+
+@screen md {
+  .download-button-text {
+    @apply text-2xl;
+  }
 }
 
 /**
