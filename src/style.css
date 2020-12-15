@@ -1,6 +1,11 @@
 @tailwind base;
 @tailwind components;
 
+*::selection {
+  background: #e6dcfd;
+  /* color: white; */
+}
+
 .font-roboto {
   font-family: "Roboto";
 }
@@ -74,6 +79,51 @@
 
 .custom-shape-divider-bottom-1602011117 .shape-fill {
   fill: #ffffff;
+}
+
+.download-btn .download-btn-text,
+.download-btn .os-icon {
+  transition: all 0.2s ease-in-out;
+}
+
+.download-btn:hover .download-btn-text {
+  @apply text-white bg-transparent;
+}
+
+.download-btn .os-icon {
+  fill: #d03592;
+}
+.download-btn:hover .os-icon {
+  fill: white !important;
+}
+
+body .show-on-mac,
+body .show-on-win,
+body .show-on-rest {
+  display: none;
+}
+
+body.macOS .show-on-mac {
+  display: flex;
+}
+
+body.windows .show-on-win {
+  display: flex;
+}
+
+body.unknown .show-on-rest,
+body.linux .show-on-rest,
+body.unix .show-on-rest {
+  display: flex;
+}
+
+.eye-icon {
+  @apply text-6xl font-roboto flex-1;
+  font-size: 7em;
+}
+
+.repository-btn {
+  width: 250px;
 }
 
 @tailwind utilities;

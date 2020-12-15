@@ -36,13 +36,12 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="style.css" />
   </head>
 
-  <body class="">
+  <body>
     <div
-      class="bg-gradient-to-br from-purple-600 via-pink-600 to-orange-500 text-white overflow-hidden"
+      class="bg-gradient-to-br from-purple-600 via-pink-600 via-orange-500 to-yellow-500 text-white overflow-hidden"
     >
       <div class="container">
         <div class="flex mt-48 md:mt-40 mb-10 items-center justify-center">
@@ -79,31 +78,92 @@
       <div class="">
         <div class="md:flex pt-16 items-start">
           <a
-            title="Download Samplescope App"
-            href="https://github.com/jamland/samplescope/releases/download/v1.2.10/Samplescope-darwin-x64-1.2.10.zip"
-            class="bg-black text-white text-left font-medium py-4 pl-6 pr-16 rounded-lg text-xl hover:bg-gray-900 flex justify-center items-center mr-10 whitespace-no-wrap w-full md:w-8/12 lg:w-5/12"
+            target="_blank"
+            href="https://github.com/jamland/samplescope/releases/tag/v1.3.5"
+            class="download-btn bg-gradient-to-r from-pink-500 via-pink-500 via-pink-500 via-pink-500 via-pink-500 to-orange-500 p-1 flex flex-row w-full md:w-8/12 lg:w-5/12 mr-10 rounded-md"
           >
-            <img
-              class="mr-2 md:mr-6 h-6 md:h-10"
-              src="images/apple-logo.svg"
-              alt="Apple Logo"
-            />
-            <span class="flex flex-row font-roboto">
-              <span class="font-light download-button-text">Download for</span>
-              <span class="font-bold download-button-text">Mac OS</span>
+            <span
+              class="download-btn-text text-pink-500 bg-white pl-4 text-left font-medium text-xl flex items-center whitespace-no-wrap flex-1 rounded justify-start"
+            >
+              <svg
+                width="50"
+                height="50"
+                viewBox="0 0 60 60"
+                xmlns="http://www.w3.org/2000/svg"
+                class="os-icon show-on-mac"
+              >
+                <path
+                  d="M41.26 13.982c1.204.053 3.71.344 6.273 1.745a13.233 13.233 0 014.648 4.245l.36.53-.537.35c-.028.018 0-.001-.049.029-.553.346-5.905 3.688-5.838 10.426.07 8.123 6.892 10.938 7.269 11.094h.002l.017.006.535.224-.184.553c-.01.033.002-.002-.014.05-.174.563-1.354 4.379-4.02 8.312-1.21 1.783-2.442 3.564-3.897 4.938-1.507 1.423-3.228 2.383-5.354 2.423-2.003.038-3.315-.535-4.678-1.13-1.3-.569-2.653-1.16-4.769-1.16-2.223 0-3.644.612-5.012 1.2-1.288.554-2.534 1.09-4.33 1.162h-.002c-2.073.078-3.87-.942-5.467-2.453-1.529-1.445-2.867-3.337-4.088-5.119-2.754-4.014-5.15-9.856-5.89-15.795-.608-4.886-.099-9.849 2.24-13.948a15.237 15.237 0 015.267-5.47c2-1.224 4.27-1.951 6.64-2.064l.446-.014c2.215-.04 4.304.796 6.132 1.528 1.293.518 2.446.98 3.31.98.763 0 1.888-.448 3.2-.97 2.215-.881 4.925-1.96 7.79-1.672zM41.827 0l.064.582c.185 1.704-.04 3.405-.554 4.997a14.55 14.55 0 01-2.56 4.682v.003a12.627 12.627 0 01-4.213 3.324c-1.503.724-3.151 1.114-4.791.985l-.502-.04-.066-.504c-.213-1.627.033-3.274.55-4.798a14.454 14.454 0 012.388-4.329l.24-.29c1.085-1.282 2.54-2.398 4.097-3.207C38.043.594 39.722.087 41.25.024L41.827 0z"
+                  fill-rule="nonzero"
+                />
+              </svg>
+
+              <svg
+                width="50"
+                height="50"
+                viewBox="0 0 60 60"
+                xmlns="http://www.w3.org/2000/svg"
+                class="os-icon show-on-win"
+              >
+                <path
+                  d="M3 11.058l21.938-2.995v21.093H3M27.469 7.318L57 3v26.156H27.469M3 31.688h21.938V52.78L3 49.733m24.469-18.045H57V57l-29.531-4.096"
+                  fill-rule="nonzero"
+                />
+              </svg>
+
+              <svg
+                width="80"
+                height="80"
+                viewBox="0 0 60 60"
+                xmlns="http://www.w3.org/2000/svg"
+                class="os-icon show-on-rest"
+              >
+                <g fill-rule="nonzero">
+                  <path
+                    d="M18.71 22.173c.502.022 1.548.141 2.617.716a5.488 5.488 0 011.94 1.739l.15.217-.225.143-.02.013c-.23.141-2.463 1.511-2.436 4.272.03 3.329 2.876 4.483 3.033 4.547l.008.002.223.092-.076.227c-.005.013 0-.001-.006.02-.073.23-.565 1.795-1.678 3.406-.504.731-1.018 1.461-1.626 2.024-.628.583-1.346.977-2.233.993-.836.015-1.383-.22-1.952-.463-.542-.233-1.106-.475-1.99-.475-.927 0-1.52.25-2.09.491-.538.227-1.058.447-1.806.477-.866.032-1.616-.386-2.282-1.006-.638-.592-1.197-1.367-1.706-2.098-1.149-1.645-2.148-4.038-2.457-6.473-.254-2.002-.041-4.036.935-5.715A6.296 6.296 0 017.23 23.08a5.92 5.92 0 012.64-.839l.316-.013c.924-.016 1.796.326 2.558.627.54.212 1.02.401 1.381.401.318 0 .788-.183 1.335-.397.924-.362 2.055-.804 3.25-.686zM19.331 16l.027.246a5.1 5.1 0 01-.233 2.106 6.141 6.141 0 01-1.074 1.974 5.304 5.304 0 01-1.769 1.402c-.631.306-1.323.47-2.011.416l-.211-.017-.028-.213c-.09-.686.014-1.38.232-2.023a6.104 6.104 0 01.94-1.745l.163-.202a5.752 5.752 0 011.72-1.352c.656-.342 1.36-.555 2.002-.582l.242-.01zM31 22.582l9.75-1.332v9.375H31m10.875-9.706L55 19v11.625H41.875M31 31.75h9.75v9.375L31 39.77m10.875-8.02H55V43l-13.125-1.82"
+                  />
+                </g>
+              </svg>
+
+              <span class="flex flex-col font-roboto pl-8 pb-2">
+                <span class="font-light download-button-text text-lg leading-8">
+                  <span class="show-on-mac show-on-win">Download for</span>
+                  <span class="show-on-rest">Download on</span>
+                </span>
+                <span class="font-bold download-button-text text-4xl">
+                  <span class="show-on-mac">macOS</span>
+                  <span class="show-on-win">Windows</span>
+                  <span class="show-on-rest">GitHub</span>
+                </span>
+              </span>
+            </span>
+
+            <span class="text-white flex-0 p-4 px-10 flex items-center">
+              <svg
+                width="34"
+                height="44"
+                viewBox="0 0 44 54"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M44 47.143v6.286H0v-6.286h44zM31.429 0v18.857H44l-22 22-22-22h12.571V0H31.43z"
+                  fill="#fff"
+                  fill-rule="nonzero"
+                />
+              </svg>
             </span>
           </a>
 
           <div>
             <p class="w-3/4 text-gray-500">
-              For now Samplescope available on Mac OS.
+              Samplescope available for macOS and Windows.
               <br />
-              <small> Tested on MacOS Catalina 10.15.x</small>
+              <small>Tested on MacOS 10.15+ and Windows 10+</small>
             </p>
           </div>
         </div>
 
-        <div class="md:w-3/4 lg:w-1/2">
+        <div class="md:w-3/4 lg:w-2/5">
           <details class="bg-white rounded-lg shadow-md my-6">
             <summary class="p-4 bg-gray-100">All Platforms</summary>
             <div class="">
@@ -126,13 +186,13 @@
                       />
                     </svg>
                     <span class="ml-2 flex-1 w-0 truncate"
-                      >Samplescope App for Mac OS 10.15+
+                      >Samplescope App for macOS
                     </span>
                   </div>
                   <div class="ml-4 flex-shrink-0">
                     <a
                       title="Download Samplescope App"
-                      href="https://github.com/jamland/samplescope/releases/download/v1.2.10/Samplescope-darwin-x64-1.2.10.zip"
+                      href="https://github.com/jamland/samplescope/releases/download/v1.3.5/Samplescope-darwin-x64-1.3.5.zip"
                       class="font-medium text-indigo-600 hover:text-indigo-500 transition duration-150 ease-in-out"
                     >
                       Download
@@ -140,7 +200,7 @@
                   </div>
                 </li>
                 <li
-                  class="hidden bg-gray-100 border-t border-gray-400 pl-3 pr-4 py-3 flex items-center justify-between text-sm leading-5"
+                  class="bg-gray-100 pl-3 pr-4 py-3 flex items-center justify-between text-sm leading-5"
                 >
                   <div class="w-0 flex-1 flex items-center">
                     <!-- Heroicon name: paper-clip -->
@@ -162,7 +222,7 @@
                   </div>
                   <div class="ml-4 flex-shrink-0">
                     <a
-                      href="#"
+                      href="https://github.com/jamland/samplescope/releases/download/v1.3.5/Samplescope-1.3.5.Setup.exe"
                       class="font-medium text-indigo-600 hover:text-indigo-500 transition duration-150 ease-in-out"
                     >
                       Download
@@ -178,7 +238,7 @@
       <br />
 
       <div>
-        <h1 class="text-4xl font-medium my-4 font-roboto">
+        <h1 class="text-4xl font-medium my-4 font-roboto text-pink-700">
           About Samplescope App
         </h1>
 
@@ -186,7 +246,7 @@
           <div class="my-8 px-8 w-1/1 md:w-1/2 overflow-hidden">
             <p class="text-2xl text-gray-500 font-light">
               Samplescope is cross-platform desktop app with the main goal to
-              simplify audio samples search over internet sources. It helps
+              simplify audio sample search over internet sources. It helps
               quickly find great royalty-free sound effects you lookin for.
             </p>
           </div>
@@ -196,8 +256,8 @@
           >
             <ul>
               <li>
-                ✅ Access to over
-                <span class="text-pink-600 font-medium">650k sounds</span>
+                ✅ Access to
+                <span class="text-pink-600 font-medium">~700k sounds</span>
               </li>
               <li>
                 ✅
@@ -212,43 +272,58 @@
       <br />
 
       <div>
-        <h1 class="text-4xl font-medium my-4 font-roboto">Main Features</h1>
+        <h1 class="text-4xl font-medium my-4 font-roboto text-pink-700">
+          Main Features
+        </h1>
 
         <div class="md:flex">
-          <div class="flex-1 bg-gray-200 m-2 p-6 text-center rounded-lg">
-            <img
-              class="my-8 mx-auto"
-              src="./images/ui-image.svg"
-              alt="Freesound Logo"
-            />
-            <h3 class="text-3xl font-roboto">Simple UI</h3>
-            <p>
-              Focus on your music not on complecated UIs, registrations, etc
-            </p>
+          <div
+            class="flex-1 bg-gray-200 m-2 p-6 text-center rounded-lg flex flex-col"
+          >
+            <div class="flex-1">
+              <img
+                class="my-8 mx-auto"
+                src="./images/ui-image.svg"
+                alt="Freesound Logo"
+              />
+            </div>
+            <div class="flex-0">
+              <h3 class="text-3xl font-roboto mb-4">Simple UI</h3>
+              <p>
+                Focus on your music not on complecated UIs, registrations, etc
+              </p>
+            </div>
           </div>
-          <div class="flex-1 bg-gray-200 m-2 p-6 text-center rounded-lg">
-            <img
-              class="my-8 mx-auto"
-              src="./images/freesound-logo.png"
-              alt="Freesound Logo"
-            />
-            <img
-              class="my-8 mx-auto"
-              src="./images/cc.logo.white.svg"
-              alt="Creative Commons Logo"
-            />
-            <h3 class="text-3xl font-roboto">Free Distribution</h3>
-            <p>Open access to resources is important</p>
+          <div
+            class="flex-1 bg-gray-200 m-2 p-6 text-center rounded-lg flex flex-col"
+          >
+            <div class="flex-1">
+              <img
+                class="my-8 mx-auto"
+                src="./images/freesound-logo.png"
+                alt="Freesound Logo"
+              />
+              <img
+                class="my-8 mx-auto"
+                src="./images/cc.logo.white.svg"
+                alt="Creative Commons Logo"
+              />
+            </div>
+            <div class="flex-0">
+              <h3 class="text-3xl font-roboto mb-4">Free Distribution</h3>
+              <p>Open access to resources is important</p>
+            </div>
           </div>
-          <div class="flex-1 bg-gray-200 m-2 p-6 text-center rounded-lg">
-            <img
-              class="my-8 mx-auto w-1/2"
-              style="width: 120px"
-              src="./images/open-source.png"
-              alt="Open Source Logo"
-            />
-            <h3 class="text-3xl font-roboto">Open-Source Project</h3>
-            <p>App is transparent and open for improvements</p>
+          <div
+            class="flex-1 bg-gray-200 m-2 p-6 text-center rounded-lg flex flex-col"
+          >
+            <div class="eye-icon">👁</div>
+            <div class="flex-0">
+              <h3 class="text-3xl font-roboto leading-7 mb-4">
+                Open-Source Project
+              </h3>
+              <p>App is transparent and open for improvements</p>
+            </div>
           </div>
         </div>
       </div>
@@ -263,24 +338,45 @@
             top: -60%;
             opacity: 0.2;
             width: 50vw;
+            z-index: 0;
           "
+          class="select-none"
           src="./images/cog-and-wheel.svg"
           alt="Cog Background Image"
         />
-        <h2 class="text-4xl font-normal font-roboto mb-4">Development</h2>
-        <p class="text-xl font-light mb-4 md:w-3/4 lg:w-7/12">
-          Samplescope is project built on top of other open source projects. If
-          you have the ideas on improve it or want to help to develop it here is
-          some links to connect.
-        </p>
-        <a
-          title="Go to the codebase"
-          href="https://github.com/jamland/samplescope"
-          target="_blank"
-          class="bg-gray-200 text-blue-700 font-bold py-2 px-6 my-4 rounded"
-        >
-          Code Repository
-        </a>
+
+        <div class="relative">
+          <h2 class="text-4xl font-normal font-roboto mb-10">Development</h2>
+          <p class="text-xl font-light md:w-3/4 lg:w-7/12 mb-12">
+            Samplescope is project built on top of other open source projects.
+            If you have any suggestions or ideas how to improve it or if you
+            want to help to develop it here is some links to connect.
+          </p>
+
+          <div class="repository-btn">
+            <a
+              title="Go to the codebase"
+              href="https://github.com/jamland/samplescope"
+              target="_blank"
+              class="bg-gray-200 text-blue-700 font-bold py-2 px-6 my-4 rounded flex whitespace-no-wrap justify-around items-center text-blue-500"
+            >
+              <span class="text-blue-500">Code Repository </span>
+
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 60 60"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M29.997 0C13.433 0 0 13.431 0 30 0 43.256 8.595 54.5 20.516 58.467c1.501.276 2.048-.65 2.048-1.446 0-.71-.026-2.598-.04-5.101-8.345 1.812-10.106-4.023-10.106-4.023-1.364-3.466-3.331-4.388-3.331-4.388-2.724-1.86.206-1.823.206-1.823 3.011.211 4.595 3.092 4.595 3.092 2.676 4.584 7.022 3.26 8.731 2.491.273-1.937 1.048-3.26 1.905-4.009-6.662-.757-13.665-3.331-13.665-14.827 0-3.275 1.169-5.954 3.088-8.05-.31-.759-1.339-3.81.295-7.94 0 0 2.517-.806 8.249 3.076 2.392-.667 4.96-.998 7.51-1.011 2.549.013 5.114.344 7.51 1.011 5.728-3.882 8.242-3.076 8.242-3.076 1.637 4.13.608 7.181.3 7.94 1.923 2.096 3.083 4.775 3.083 8.05 0 11.525-7.015 14.061-13.697 14.803 1.076.927 2.035 2.757 2.035 5.557 0 4.009-.036 7.245-.036 8.228 0 .803.541 1.737 2.062 1.444C51.412 54.488 60 43.252 60 30.001 60 13.43 46.567 0 29.997 0"
+                  fill-rule="evenodd"
+                  fill="#0366d6"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -298,5 +394,15 @@
 
       gtag("config", "UA-173935505-2");
     </script> -->
+
+    <script>
+      let OSName = "unknown";
+      if (navigator.appVersion.indexOf("Win") != -1) OSName = "windows";
+      if (navigator.appVersion.indexOf("Mac") != -1) OSName = "macOS";
+      if (navigator.appVersion.indexOf("X11") != -1) OSName = "unix";
+      if (navigator.appVersion.indexOf("Linux") != -1) OSName = "unix";
+
+      document.body.classList.add(OSName);
+    </script>
   </body>
 </html>
